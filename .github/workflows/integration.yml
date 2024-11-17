@@ -33,7 +33,7 @@ jobs:
     - name: "Build Command"
       run: npm run build
 
-unit-tests:
+  test:
     #all these jobs are going to run on server not on local machine
     runs-on: ubuntu-latest
 
